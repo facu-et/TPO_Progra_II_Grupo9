@@ -1,2 +1,6 @@
 # TPO_Progra_II_Grupo9
 Trabajo Práctico Obligatorio para la materia Programación II de UADE, del Grupo 9.
+
+Implementamos el algoritmo de Kruskal para encontrar el arbol de expansion minima en un grafo ponderado no dirigido, con la particularidad de que los pesos de las aristas se calculan con la formula [peso = A*costo + B*riesgo), donde costo es el costo en dolares de instalar ese cable, riesgo es el riesgo o nivel de inseguridad que tiene ese cable debido a factores como proximidad con los limites del establecimiento y proximidad con la superficie terrestre, por cuestiones geologicas y topograficas del terreno; A y B son numeros entre 0 y 1 que sumados son igual a 1, y representan la ponderacion del gobierno con respecto a la importancia que reciben los dos parametros fundamentales ya mencionados: costo y riesgo. Por ejemplo, si A=0.3, entonces B=0.7, lo cual a su vez significa que el gobierno de los Estados Unidos le otorga un 30% de importancia a que tan barato es el cable y un 70% a que sea seguro.
+
+No es raro que agencias de altisima confidencialidad como la tratada en este Trabajo Practico elijan que sus datos se trasladen por cables en lugar de por la nube, ya que otorga muchisima mayor seguridad, y la unica manera de interceptarlos seria literalmente incidiendo sobre los cableados, y por ende de ahi surge la idea de este TP!
